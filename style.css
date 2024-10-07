@@ -1,0 +1,304 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-container{
+    height: 100vh;
+    width: 100%;
+    background-color: #676179;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    height: 75vh;
+    width: 60%;
+    background-color: #2b2738;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 15px;
+}
+.left-part{
+    height: 100%;
+    width: 50%;
+    background-image: url(./images.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.up-part{
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 20px;
+    padding-top: 12px;
+}
+.up-part h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+    letter-spacing: 3px;
+}
+.up-part button{
+    border: none;
+    background-color: #655a9e;
+    color: white;
+    height: 25px;
+    width: 120px;
+    font-size: 12px;
+    border-radius: 30px;
+    i{
+        font-size: 11px;
+        padding-left: 5px;
+    }
+}
+.down-part{
+    height: auto;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding-bottom: 45px;
+}
+.down-part p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+}
+form{
+    height: 100%;
+    width: 50%;
+    padding-inline: 60px;
+    padding-block: 50px;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    flex-direction: column;
+}
+form > p{
+    height: auto;
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 37px;
+    font-weight: 500;
+    text-align: start;
+    /* background-color: black; */
+    position: relative;
+    top: -20px;
+}   
+#span1{
+    height: auto;
+    width: 100%;
+    /* background-color: white; */
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    position: relative;
+    top: -10px;
+    padding-bottom: 24px;
+}
+#span1 p{
+    color: rgb(169, 166, 166);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    padding-right: 7px;
+}
+#span1 a{
+    color:#6e54b5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+}
+.name-input{
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.name{
+    height: 37px;
+    width: 48%;
+    background-color: #3b364c;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+.input-in-main{
+    height: 37px;
+    width: 100%;
+    background-color: #3b364c;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+#span2{
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-bottom: 10px;
+}
+#span2 > input{
+    height: 17px;
+    width: 17px;
+    margin-right: 13px;
+}
+#span2 > p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    margin-right: 4px;
+    color:rgb(211, 217, 223);
+}
+#span2 > a{
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#726697;
+}
+form > button{
+    height: 60px;
+    width: 100%;
+    background-color:#6e54b5;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    margin-top: 20px;
+    font-size: 14px;
+}
+#span3{
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 12px;
+}
+#span3 > p{
+    color: rgb(148, 153, 156);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    padding-inline: 8px;
+}
+#span3 > hr{
+    width: 35%;
+    color: rgb(112, 114, 116);
+    opacity: 0.2;
+}
+.register-with-section{
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.register-with-section button:first-child{
+    height: 36px;
+    width: 48%;
+    border: 1px solid white;
+    background: transparent;
+    color: white;
+    border-radius: 6px;
+    i{
+        margin-right: 10px;
+        font-size: 15px;
+    }
+}
+.register-with-section button:last-child{
+    height: 36px;
+    width: 48%;
+    border: 1px solid white;
+    background: transparent;
+    color: white;
+    border-radius: 6px;
+    i{
+        margin-right: 10px;
+        font-size: 20px;
+    }
+}
+
+
+/* responsive css code */
+@media screen and (max-width:768px){
+    .main-container{
+        height: 100vh;
+        width: 100%;
+    }
+    .box{
+        height: 100vh;
+        width: 100%;
+        flex-direction: column;
+    }
+    .left-part{
+        height: 100vh;
+        width: 100%;
+    }
+    form{
+        height: 100vh;
+        width: 70%;
+    }
+    form > p{
+        text-align: center;
+        font-size: 30px;
+    }
+    #span1{
+        justify-content: center;
+    }
+    .name-input{
+        justify-content: space-between;
+    }
+    #span2{
+        justify-content: center;
+    }
+}
+@media screen and (max-width:480px){
+    .main-container{
+        height: 100vh;
+        width: 100%;
+    }
+    .box{
+        height: 100vh;
+        width: 100%;
+        flex-direction: column;
+    }
+    .left-part{
+        height: 50vh;
+        width: 100%;
+    }
+    .down-part p{
+        font-size: 18px;
+    }
+    form{
+        height: 100vh;
+        width: 100%;
+    }
+    form > p{
+        font-size: 25px;
+    }
+    #span1{
+        height: auto;
+        width: 100%;
+    }
+    #span1 p{
+        font-size: 11px;
+    }
+    #span1 a{
+        font-size: 12px;
+    }
+}
