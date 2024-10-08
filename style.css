@@ -24,10 +24,12 @@
 .left-part{
     height: 100%;
     width: 50%;
-    background-image: url(./images.jpeg);
+    
+    background-image: url(./img.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    object-fit: cover;
+    background-position-x: -250px;
+    /* object-fit: cover; */
     border-radius: 10px;
     margin-right: 10px;
     display: flex;
